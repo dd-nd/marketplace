@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Список продуктов</h2>
+<ul>
+    <li><a href="{{ url_for('product', product_id=1) }}">Продукт 1</a></li>
+    <li><a href="{{ url_for('product', product_id=2) }}">Продукт 2</a></li>
+</ul>
+{% endblock %}
